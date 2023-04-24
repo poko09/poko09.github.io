@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Moja Strona</title>
+	<style>
+		body {
+			background: linear-gradient(to top left, #33ccff 0%, #660033 110%);
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			font-size: 4rem;
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+			color: #66c9ff;
+			text-transform: uppercase;
+		}
+		
+		.container ul {
+			list-style: none;
+			padding: 0;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+		.container li {
+			margin-bottom: 1rem;
+		}
+		.container li a {
+			color: #fff692;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.container li a:hover {
+			color: #0077cc;
+		}
+		.container .tile-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 2rem;
+		}
+		.container .tile {
+		width: 500px;
+		height: 500px;
+		background-color: #f2f2f2;
+		margin: 0 1rem 1rem 0;
+		border-radius: 0.5rem;
+		box-shadow: 0px 0px 5px #67fff0;
+		overflow: hidden;
+		position: relative;
+		flex: 1 1 calc(50% - 0.5rem);
+		}
+
+		.container .tile:nth-child(2n) {
+ 	   	margin-right: 0;
+		}
+		.container .tile iframe {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.container .tile h2 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 0.5rem;
+			margin: 0;
+			color: #ffffff;
+			background-color: black;
+			font-size: 1.2rem;
+			width: 100%;
+			box-sizing: border-box;
+			opacity: 0.8;
+			transition: all 0.3s ease-in-out;
+		}
+		.container .tile:hover h2 {
+			opacity: 1;
+		}
+		.container .description {
+			text-align: center;
+			margin-top: 2rem;
+			font-size: 1.7rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #b7e6ff;
+		}
+		.container .document_description {
+			text-align: center;
+			margin-top: 2rem;
+			font-size: 2.2rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: yellow;
+		}
+		.document_description:hover {
+  			background-color: rgb(173, 73, 223);
+		}
+		.container .description2 {
+			text-align: left;
+			margin-top: 2rem;
+			font-size: 1.7rem;
+			/* font-weight: bold; */
+			/* text-transform: uppercase; */
+			color: #d6e628;
+		}
+		.container .my_soundcolud {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 25%;
+
+			
+		}
+	
+	
+	</style>
+</head>
+<body>
+	<h1>Karol Augustyniak</h1>
+
+	<div class="container">
+		<div class="description">
+			<div>Composer, Sound Artist</div>
+
+		<div class='document_description'>
+			<ul>
+				<li><a href="BIO_v1.pdf">Bio</a></li>
+				<li><a href="PORTFOLIO_v2.pdf">Portfolio</a></li>
+				<li><a href="resume.pdf">Resume</a></li>
+				<li><a href="#">Recommendation</a></li>
+                <li><a href="scores.html">Scores</a></li>
+
+			 </ul>
+		
+		
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="description">
+			<br></br>
+
+			<div>Listen to my music on soundcloud: </div> <br></br>
+
+				<li>piece1</a></li>
+				<div class = 'my_soundcolud'>
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1468915774&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/karol-augustyniak-403959558" title="Karol Augustyniak" target="_blank" style="color: #cccccc; text-decoration: none;">Karol Augustyniak</a> · <a href="https://soundcloud.com/karol-augustyniak-403959558/piece1" title="Piece1" target="_blank" style="color: #cccccc; text-decoration: none;">Piece1</a></div>
+				</div>
+				<br></br>
+				<li>piece2</li>
+				<div class = 'my_soundcolud'>
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1468929868&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/karol-augustyniak-403959558" title="Karol Augustyniak" target="_blank" style="color: #cccccc; text-decoration: none;">Karol Augustyniak</a> · <a href="https://soundcloud.com/karol-augustyniak-403959558/piece2" title="Piece2" target="_blank" style="color: #cccccc; text-decoration: none;">Piece2</a></div>
+				</div>
+				<br></br>
+				<li>piece3</li>
+				<div class = 'my_soundcolud'>
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1468934437&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/karol-augustyniak-403959558" title="Karol Augustyniak" target="_blank" style="color: #cccccc; text-decoration: none;">Karol Augustyniak</a> · <a href="https://soundcloud.com/karol-augustyniak-403959558/piece3" title="Piece3" target="_blank" style="color: #cccccc; text-decoration: none;">Piece3</a></div>
+
+				</div>
+				<br></br>
+                <li>piece4</li>
+				<div class = 'my_soundcolud'>
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1468934782&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/karol-augustyniak-403959558" title="Karol Augustyniak" target="_blank" style="color: #cccccc; text-decoration: none;">Karol Augustyniak</a> · <a href="https://soundcloud.com/karol-augustyniak-403959558/piece4" title="Piece4" target="_blank" style="color: #cccccc; text-decoration: none;">Piece4</a></div>
+
+				</div>
+
+			 </ul>
+		
+		
+	</div>
+<!-- 
+	
+		<div class="tile-container">
+			<div class="tile">
+				<iframe width="300" height="300" src="https://soundcloud.com/almainey/long-nights-prod-palaze" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h2>piece1</h2>
+                </div>
+                <div class="tile">
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h2>piece2</h2>
+                </div>
+                <div class="tile">
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h2>piece3</h2>
+                </div>
+                <div class="tile">
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h2>piece4</h2>
+				<iframe width="300" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div> -->
+
+
+
+	<div class="container">
+		<div class="description2">
+
+	
+				CONTACT ME: <br></br>
+				<li>Karol Augustyniak</li>
+				<li> <a href="mailto:k.augustyniak512@gmail.com">k.augustyniak512@gmail.com</a></li><br></br>
+
+				This website was created for educational purposes by Karol Augustyniak
+
+		
+		</div>
+	</div>
+	
+	
+	</div>
+
+
+
+</html>
